@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper]{jsarticle}
+
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{ascmac}
+\usepackage{listings,jlisting} % ソースコードを表示させるためのもの
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+} % ソースコードを表示させるためのもの
+
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.2in}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+\newcommand{\divergence}{\mathrm{div}\,}  
+\newcommand{\grad}{\mathrm{grad}\,}  
+\newcommand{\rot}{\mathrm{rot}\,}  
+
+\title{　\\　\\　\\　\\　\\　\\　\\　\\　　\\あいう}
+\author{...}
+\date{2019.12.14}
+\begin{document}
+\maketitle
+\newpage % 改ページ
+\section{実習の目的}
+...
+...
+\section{原理}
+
+\section{実習内容と方法}
+…
+\section{結果}
+\subsection{プログラムの設計}
+…
+
+\begin{lstlisting}[caption=hoge,label=fuga]
+#include<stdio.h>
+int main(){
+   printf("Hello world!");
+}
+\end{lstlisting}
+
+\subsection{動作検証}
+…
+\end{document}
