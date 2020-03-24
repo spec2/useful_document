@@ -1,0 +1,28 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "make_ptex2pdf",
+            "tools": [
+                "ptex2pdf",
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "ptex2pdf",
+            "command": "ptex2pdf",
+            "args": [
+                "-interaction=nonstopmode",
+                "-l",
+                "-ot",
+                "-kanji=utf8 -synctex=1",
+                "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.statusBar.visible": true,
+    "editor.renderControlCharacters": true,
+    "files.autoGuessEncoding": true,
+    "window.zoomLevel": 0,
+}
