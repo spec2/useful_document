@@ -24,5 +24,37 @@
     "workbench.statusBar.visible": true,
     "editor.renderControlCharacters": true,
     "files.autoGuessEncoding": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
+    // // ここから
+    // // デフォルトの起動するターミナルをUbuntu18.04にするために下の２行が必要
+    //     "terminal.integrated.shell.windows": "ubuntu1804.exe",
+    //     "terminal.integrated.shellArgs.windows": ["run", "/bin/bash"],
+    //ファイルをセーブするごとにコードを整えてくれる
+    "editor.formatOnSave": true,
+    //行を書き終えるごとに行のコードを整えてくれる
+    "editor.formatOnType": true,
+    //ペーストしたときにコードを整えてくれる
+    "editor.formatOnPaste": true,
+    //予測をどのときに出すのか
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    //自動保存をしてくれる
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 20,
+    // Java settings
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "java.home": "C:\\Program Files\\Java\\jdk1.8.0_181",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
