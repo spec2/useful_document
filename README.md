@@ -16,9 +16,9 @@
 各種の用紙のPDFファイルを保存しています。  
 種類は以下のようになります。   
 
-- 5mm方眼用紙
-- B罫大学ノート  
-[方眼紙ネット](http://houganshi.net/note.php)からダウンロードしました。  
+- [5mm方眼用紙](https://happylilac.net/hougan.html)
+    - 1200dpiで印刷するといい感じです。
+- [B罫大学ノート](http://houganshi.net/note.php)     
 
 # github-https
 ```github-https.py```はPythonを用いてとHTTPS通信をするコードです。   
